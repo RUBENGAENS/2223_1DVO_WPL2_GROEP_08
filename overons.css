@@ -2,4 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Titan One', cursive;
+}
+h1 {
+    font-size: 40px;
+}
+
+#foto1 {
+    width: 100%;
+}
+#tekst {
+    color: #3C405B;
+    font-family: "Segoe UI", sans-serif;
 }

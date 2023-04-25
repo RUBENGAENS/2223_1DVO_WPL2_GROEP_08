@@ -1,0 +1,62 @@
+.container{
+    background-color: white;
+}
+div.container-fluid{
+    background-color: white;
+}
+.container_logo{
+    width: 60px;
+    padding-bottom: 10px;
+}
+.navbar-brand{
+    padding-top: 5px;
+    margin-left: 20px;
+    color: lightslategray;
+}
+.nav-link{
+    padding-top: 10px;
+    margin-left: 10px;
+    color: lightslategray;
+    text-decoration: none;
+}
+.nav-link-rechts{
+    padding-top: 10px;
+    padding-left: 660px;
+    color: lightslategray;
+    background-color: white;
+    text-decoration: none;
+}
+.collapse{
+    background-color: white;
+}
+.navbar-nav{
+    background-color: white;
+}
+.nav-item{
+    background-color: white;
+}
+.col-md-4{
+    color: lightslategray;
+}
+main{
+    background-image: url("assets/background_image.png");
+    back
+}
+.image_footer_1{
+    width: 50px;
+    padding-top: 20px;
+}
+.image_footer_2{
+    width: 25px;
+    padding-top: 20px;
+    margin: 10px;
+}
+.background_image_1{
+    width: 100%;
+}
+.py-3{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

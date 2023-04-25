@@ -57,43 +57,15 @@
     padding-top: 3px;
     width: 100%;
 }
-.eerste{
-    height: 600px;
-    width: 100%;
-    background-color: white;
-}
-.header_eerste{
+.footer #background_2{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-top: 50px;
-    color: black;
-}
-.header_eerste_p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 50px;
-    color: white;
-}
-.eerste img #background_1{
+    justify-content: left;
+    padding-top: 3px;
     width: 100%;
 }
-.tweede{
-    height: 600px;
-    width: 100%;
-    background-color: lightblue;
-}
-.derde{
-    height: 600px;
-    width: 100%;
-    background-color: lightgreen;
-}
-.vierde{
-    height: 600px;
-    width: 100%;
-    background-color: lightblue;
-}
+
+
 .logo_footer{
     display:flex;
     flex-direction: row;

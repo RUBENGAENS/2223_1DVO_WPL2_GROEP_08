@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header div h1 {
+    font-family: "Titan One", Verdana, sans-serif;
+    color: #82B29A;
+}
+header div img {
+    width: 100%;
+}
+#familie {
+    width: 100%;
+}
+main div h2 {
+    font-family: "Titan One", Verdana, sans-serif;
+}

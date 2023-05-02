@@ -46,6 +46,7 @@ html {
 
 .col-md-4 {
     color: lightslategray;
+    padding-bottom: 10px;
 }
 
 .col-md-12 {
@@ -80,6 +81,7 @@ input {
 
 label {
     padding-bottom: 40px;
+    text-align: center;
 }
 
 textarea {
@@ -94,6 +96,7 @@ textarea {
     background-color: #82B29A;
     color: #ffffff;
     text-align: center;
+    border:1px solid transparent;
 }
 
 .delete {
@@ -101,6 +104,7 @@ textarea {
     background-color: #82B29A;
     color: #ffffff;
     text-align: center;
+    border:1px solid transparent;
 }
 
 main {
@@ -151,11 +155,13 @@ main {
     .submit {
         width: 120px;
         text-align: center;
+        border:1px solid transparent;
     }
 
     .delete {
         width: 120px;
         text-align: center;
+        border:1px solid transparent;
     }
 
     .col-md-12-3 {
@@ -166,4 +172,8 @@ main {
     .nav-link-rechts{
         padding-left: 10px;
     }
+    .nav{
+
+    }
 }
+

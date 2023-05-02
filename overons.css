@@ -7,8 +7,9 @@
 
 body {
     background-image: url("assets/background_overons.png") ;
-    width: 100%;
 }
+
+
 h1 {
     font-size: 40px;
 }
@@ -22,7 +23,7 @@ h1 {
 .tekst {
     color: #3C405B;
     font-family: "Segoe UI", sans-serif;
-    font-size: 23px;
+    font-size: 18px;
 }
 .contact-color{
     color: #DF7A5E;
@@ -30,7 +31,7 @@ h1 {
     border: 1px solid transparent;
     border-radius: 50px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-    font-size: 20px;
+    font-size: 16px;
 }
 button:hover {
     background-color: #DF7A5E;

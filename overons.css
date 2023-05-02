@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Merriweather Sans', sans-serif;
 }
+
 body {
     background-image: url("assets/background_overons.png") ;
     width: 100%;
@@ -11,7 +12,7 @@ body {
 h1 {
     font-size: 30px;
 }
-h2 {
+.overons h2 {
     font-size: 20px;
     color: #82B29A;
 }
@@ -23,16 +24,15 @@ h2 {
     font-family: "Segoe UI", sans-serif;
     font-size: 14px;
 }
-.btn {
-    border-radius: 50px;
-    text-decoration: none;
+.contact-color{
     color: #DF7A5E;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     font-size: 14px;
-    padding: 12px 30px;
-    margin: 55px;
 }
-.btn:hover {
+button:hover {
     background-color: #DF7A5E;
     color: #ffffff;
 }

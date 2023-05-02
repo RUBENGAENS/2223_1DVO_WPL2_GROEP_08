@@ -5,13 +5,25 @@
     font-family: 'Titan One', cursive;
 }
 h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
-
-#foto1 {
+h2 {
+    font-size: 20px;
+    color: #82B29A;
+}
+.foto {
     width: 100%;
 }
-#tekst {
+.tekst {
     color: #3C405B;
     font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+.btn {
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #DF7A5E;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
 }

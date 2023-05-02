@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Segoe UI", Verdana, sans-serif;
 }
 header div h1 {
     font-family: "Titan One", Verdana, sans-serif;
-    color: #82B29A;
+    text-align: center;
 }
 header div img {
     width: 100%;
@@ -15,4 +16,19 @@ header div img {
 }
 main div h2 {
     font-family: "Titan One", Verdana, sans-serif;
+}
+#boekje {
+    color: #3C405B;
+}
+.mockup {
+    width: 100%;
+}
+#agenda {
+    color: #F2CC8E;
+}
+#opvang {
+    color: #82B29A;
+}
+#netwerken {
+    color: #DF7A5E;
 }

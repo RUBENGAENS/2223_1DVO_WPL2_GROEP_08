@@ -131,6 +131,12 @@ main {
     margin-bottom: 10px;
 }
 @media screen and (max-width: 820px) {
+    html{
+        height: 726px;
+    }
+    main{
+        height: 55rem;
+    }
     input {
         width: 350px;
         align-items: center;

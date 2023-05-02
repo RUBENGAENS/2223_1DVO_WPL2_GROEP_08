@@ -135,12 +135,14 @@ main {
     margin-bottom: 10px;
 }
 @media screen and (max-width: 820px) {
-    html{
+    html {
         height: 726px;
     }
-    main{
+
+    main {
         height: 55rem;
     }
+
     input {
         width: 350px;
         align-items: center;
@@ -155,13 +157,13 @@ main {
     .submit {
         width: 120px;
         text-align: center;
-        border:1px solid transparent;
+        border: 1px solid transparent;
     }
 
     .delete {
         width: 120px;
         text-align: center;
-        border:1px solid transparent;
+        border: 1px solid transparent;
     }
 
     .col-md-12-3 {
@@ -169,11 +171,9 @@ main {
         height: 150px;
         margin-left: 30px;
     }
-    .nav-link-rechts{
-        padding-left: 10px;
-    }
-    .nav{
 
+    .nav-link-rechts {
+        padding-left: 10px;
     }
 }
 

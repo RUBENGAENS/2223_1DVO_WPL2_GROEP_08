@@ -32,3 +32,30 @@ main div h2 {
 #netwerken {
     color: #DF7A5E;
 }
+@media screen and (min-width: 992px) {
+    header div h1 {
+        text-align: left;
+    }
+    .app img, .goog img {
+        width: 70%;
+    }
+    .app img {
+        margin-left: 30%;
+    }
+    .goog img {
+        margin-left: 5%;
+    }
+    header .container {
+        margin: 0;
+        padding: 0;
+    }
+    .kindtop {
+        padding-top: 13%;
+    }
+    .tekst {
+        font-size: 1.5rem;
+    }
+    #boekje {
+        font-size: 2rem;
+    }
+}

@@ -14,8 +14,21 @@ html{
 body{
     min-width: 414px;
     max-width: 1920px;
-    background-image: url("./assets/achtergrondweb.png");
-    background-position: center;}
+    min-height: 768px;
+    max-height: 1180px;
+}
+
+@media (max-width: 1920px) {
+    body{
+        background-image: url("./assets/achtergrondweb.png");
+        background-size: cover;}
+}
+
+@media (max-width: 600px) {
+    body{
+        background-image: url("./assets/achtergrondtelefoon.png");
+        background-size: cover;}
+}
 
 /*Teksten*/
 .h1-header{
@@ -58,6 +71,94 @@ body{
 
 /*Knoppen producten*/
 #aantal{
+    width: 38px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #81b29a;
+    border-top: 2px solid #81b29a;
+    border-bottom: 2px solid #81b29a;
+    border-right: 0;
+}
+
+#aantal-speen{
+    width: 38px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #81b29a;
+    border-top: 2px solid #81b29a;
+    border-bottom: 2px solid #81b29a;
+    border-right: 0;
+}
+
+#aantal-bavet{
+    width: 38px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #81b29a;
+    border-top: 2px solid #81b29a;
+    border-bottom: 2px solid #81b29a;
+    border-right: 0;
+}
+
+#aantal-feestvarken{
+    width: 38px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #81b29a;
+    border-top: 2px solid #81b29a;
+    border-bottom: 2px solid #81b29a;
+    border-right: 0;
+}
+
+#aantal-babynest{
+    width: 38px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #81b29a;
+    border-top: 2px solid #81b29a;
+    border-bottom: 2px solid #81b29a;
+    border-right: 0;
+}
+
+#aantal-kraamvogel{
+    width: 38px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #81b29a;
+    border-top: 2px solid #81b29a;
+    border-bottom: 2px solid #81b29a;
+    border-right: 0;
+}
+
+#aantal-nasci{
+    width: 38px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #81b29a;
+    border-top: 2px solid #81b29a;
+    border-bottom: 2px solid #81b29a;
+    border-right: 0;
+}
+
+#aantal-pelicano{
+    width: 38px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #81b29a;
+    border-top: 2px solid #81b29a;
+    border-bottom: 2px solid #81b29a;
+    border-right: 0;
+}
+
+#aantal-nestel {
     width: 38px;
     height: 40px;
     border-top-left-radius: 10px;

@@ -69,6 +69,11 @@ body{
     border-radius: 15px;
 }
 
+.img-fluid{
+    max-width: 80%;
+    height: auto;
+}
+
 /*Knoppen producten*/
 #aantal{
     width: 38px;

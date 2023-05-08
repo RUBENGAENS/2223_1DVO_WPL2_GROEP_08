@@ -7,7 +7,7 @@ html {
 
 .container_logo {
     width: 60px;
-    padding-bottom: 10px;
+    height: 48px;
 
 }
 
@@ -28,7 +28,7 @@ html {
     padding-top: 10px;
     padding-left: 600px;
     color: black;
-    background-color: white;
+    background-color: none;
     text-decoration: none;
 }
 .collapse {
@@ -107,11 +107,23 @@ textarea {
     border:1px solid transparent;
 }
 
-main {
-    background: url("assets/background_image_3.png") no-repeat center center fixed;
-    background-size: cover;
-    height: 80rem;
+body{
+    min-width: 414px;
+    max-width: 1920px;
+    min-height: 768px;
+    max-height: 1180px;
 }
+@media (max-width: 1920px) {
+    body{
+        background-image: url("./assets/achtergrondweb.png");
+        background-size: cover;}
+}
+@media (max-width: 600px) {
+    body{
+        background-image: url("./assets/achtergrondtelefoon.png");
+        background-size: cover;}
+}
+
 
 .image_footer_1 {
     width: 50px;

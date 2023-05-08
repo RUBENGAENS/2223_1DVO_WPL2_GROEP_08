@@ -69,6 +69,13 @@ main div h2 {
         padding-top: 3rem;
     }
     #opv {
-        padding-top: 2rem;
+        padding-top: 3rem;
+    }
+    #netwerken {
+        text-align: right;
+    }
+    .tekstn {
+        font-size: 1.5rem;
+        text-align: right;
     }
 }

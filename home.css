@@ -23,6 +23,7 @@ main div h2 {
 .mockup {
     width: 100%;
 }
+
 #agenda {
     color: #F2CC8E;
 }
@@ -52,10 +53,22 @@ main div h2 {
     .kindtop {
         padding-top: 13%;
     }
+    #boek {
+        padding-top: 2rem;
+    }
     .tekst {
         font-size: 1.5rem;
     }
     #boekje {
         font-size: 2rem;
+    }
+    #agendap {
+        padding-top: 3rem;
+    }
+    .agendatop {
+        padding-top: 3rem;
+    }
+    #opv {
+        padding-top: 2rem;
     }
 }

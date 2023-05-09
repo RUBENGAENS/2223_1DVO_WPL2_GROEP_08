@@ -159,6 +159,7 @@ footer{
     padding-right: 90px;
 }
 
+
 @media (max-width: 1920px) {
     body{
         background-image: url("./assets/achtergrondweb.png");

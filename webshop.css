@@ -221,15 +221,18 @@ select{
 .nav-link{
     text-decoration: none;
     color: black;
-    font-family: 'Titan One', cursive;
+    padding: 15px;
+    font-size: 20px;
+    margin: 15px;
+    font-weight: bold;
 }
 
-.nav-link-hover{
+.nav-link:hover{
     color: #81b29a;
 }
 
 .btn-nav{
-    border-radius: 10px;
+    border: none;
     background-color: transparent;
     width: 130px;
     height: 30px;
@@ -238,10 +241,18 @@ select{
 a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
+a:hover{
+    text-decoration: none;
+    color: #81b29a;
+}
 
-
+.navbar-brand{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 

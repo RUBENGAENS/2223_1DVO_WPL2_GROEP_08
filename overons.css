@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Titan One", Verdana, sans-serif;
+    font-family: "Dotties Vanilla";
+    src: url("Dotties Vanilla Demo License");
 
 }
 
@@ -14,6 +15,8 @@ body {
     background-image: url("assets/background_overons.png");
     background-size: cover;
 }
+
+
 
 .hoofding {
     font-size: 40px;
@@ -42,7 +45,7 @@ body {
     border: 1px solid transparent;
     border-radius: 50px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .hidden {
@@ -76,13 +79,17 @@ button.contact-color:hover {
     }
 }
 
+
 /*Navbar*/
 
-.nav-item {
+#nav {
+    width: 40px;
+}
+.nav-item{
     list-style: none;
 }
 
-.nav-link {
+.nav-link{
     text-decoration: none;
     color: black;
     padding: 3px;
@@ -90,28 +97,42 @@ button.contact-color:hover {
     font-weight: bold;
 }
 
-.nav-link:hover {
+.nav-link:hover{
     color: #81b29a;
 }
 
-.btn-nav {
+.btn-nav{
     border: none;
     background-color: transparent;
     width: 130px;
     height: 30px;
 }
-a {
+
+a{
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-a:hover {
+a:hover{
     text-decoration: none;
     color: #81b29a;
 }
 
-.navbar-brand {
+.navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.container-fluid {
+    padding: 0 30px;
+    margin: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
 }

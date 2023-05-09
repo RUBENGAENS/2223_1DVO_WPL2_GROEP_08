@@ -194,7 +194,7 @@ body{
     border-right: 0;
 }
 
-.btn{
+.btn-cart{
     width: 38px;
     height: 40px;
     border-left: 0;
@@ -252,6 +252,7 @@ a:hover{
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
+    width: 100px;
 }
 
 

@@ -228,13 +228,15 @@ select{
 
 /*Navbar*/
 
+#nav {
+    width: 40px;
+}
 .nav-item{
     list-style: none;
 }
 
 .nav-link{
     text-decoration: none;
-    font-family: "Dotties Vanilla";
     color: black;
     padding: 3px;
     font-size: 20px;
@@ -256,7 +258,6 @@ a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-family: "Dotties Vanilla";
 }
 
 a:hover{
@@ -267,6 +268,19 @@ a:hover{
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.container-fluid {
+    padding: 0 30px;
+    margin: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
 }
 
 .btn-shop{

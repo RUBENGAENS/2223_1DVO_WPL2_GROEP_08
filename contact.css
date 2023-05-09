@@ -4,44 +4,46 @@
 html {
     height: 50rem;
 }
+/*Navbar*/
 
-.container_logo {
-    width: 60px;
-    height: 48px;
-
+.nav-item{
+    list-style: none;
 }
 
-.navbar-brand {
-    padding-top: 5px;
-    margin-left: 20px;
-    color: black;
-}
-
-.nav-link {
-    padding-top: 10px;
-    margin-left: 10px;
-    color: black;
+.nav-link{
     text-decoration: none;
-}
-
-.nav-link-rechts {
-    padding-top: 10px;
-    padding-left: 600px;
     color: black;
-    background-color: none;
-    text-decoration: none;
-}
-.collapse {
-    background-color: white;
+    padding: 15px;
     font-size: 20px;
+    margin: 15px;
+    font-weight: bold;
 }
 
-.navbar-nav {
-    background-color: white;
+.nav-link:hover{
+    color: #81b29a;
 }
 
-.nav-item {
-    background-color: white;
+.btn-nav{
+    border: none;
+    background-color: transparent;
+    width: 130px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #81b29a;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .col-md-4 {

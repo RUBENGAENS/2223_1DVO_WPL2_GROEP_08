@@ -7,13 +7,6 @@
 
 }
 
-
-body {
-    background-image: url("assets/background_overons.png");
-    background-size: cover;
-}
-
-
 /*Navbar*/
 
 .nav-item{
@@ -64,11 +57,17 @@ a:hover{
 }
 
 .navbar {
-    position: fixed;
     width: 100%;
+    position: fixed;
 }
+
 #nav {
     width: 40px;
+}
+
+body {
+    background-image: url("assets/background_overons.png");
+    background-size: cover;
 }
 
 .hoofding {

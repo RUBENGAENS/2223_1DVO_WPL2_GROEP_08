@@ -2,45 +2,74 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Titan One', cursive;
+    font-family: "Titan One", Verdana, sans-serif;
+
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background-image: url("assets/background_overons.png");
     background-size: cover;
 }
-.hoofding{
+
+.hoofding {
     font-size: 40px;
     color: #DF7A5E;
 }
+
 .overons h2 {
     font-size: 26px;
     color: #82B29A;
     padding-top: 70px;
 }
+
 .foto {
     width: 100%;
 }
+
 .tekst {
     color: #3C405B;
     font-family: "Segoe UI", sans-serif;
     font-size: 18px;
 }
-.contact-color{
+
+.contact-color {
     color: #DF7A5E;
-    background-color: #ffffff;
+    background-color: #fff;
     border: 1px solid transparent;
     border-radius: 50px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     font-size: 20px;
 }
-button:hover {
+
+.hidden {
+    opacity: 0;
+    transition: all 0.9s;
+    filter: blur(5px);
+    transform: translate(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+button.contact-color:hover {
     background-color: #DF7A5E;
     color: #ffffff;
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     body {
         background-image: url("assets/background_overons_phone.png");
         background-size: cover;
@@ -49,42 +78,40 @@ button:hover {
 
 /*Navbar*/
 
-.nav-item{
+.nav-item {
     list-style: none;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: black;
-    padding: 15px;
+    padding: 3px;
     font-size: 20px;
-    margin: 15px;
     font-weight: bold;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #81b29a;
 }
 
-.btn-nav{
+.btn-nav {
     border: none;
     background-color: transparent;
     width: 130px;
     height: 30px;
 }
-
-a{
+a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     color: #81b29a;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-left: 20px;
     padding-right: 20px;
 }

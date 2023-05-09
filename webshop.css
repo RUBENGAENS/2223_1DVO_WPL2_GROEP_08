@@ -18,7 +18,7 @@ body{
     max-height: 1180px;
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 600px) {
     body{
         background-image: url("./assets/achtergrondweb.png");
         background-size: cover;}
@@ -54,14 +54,20 @@ body{
     padding-top: 15px;
     padding-bottom: 10px;
     font-family: 'Titan One', cursive;
+    text-align: left;
+    margin-left: 42px;
 }
 
 .p-prijs{
     font-size: 25px;
+    text-align: left;
+    margin-left: 42px;
 }
 
 .p-producten{
     font-size: 18px;
+    text-align: left;
+    margin-left: 42px;
 }
 
 /*Afronden foto*/
@@ -221,9 +227,8 @@ select{
 .nav-link{
     text-decoration: none;
     color: black;
-    padding: 15px;
+    padding: 3px;
     font-size: 20px;
-    margin: 15px;
     font-weight: bold;
 }
 
@@ -254,9 +259,34 @@ a:hover{
     padding-right: 20px;
 }
 
+.btn-shop{
+    border: none;
+    background-color: transparent;
+}
 
+/*Footer*/
 
+.image_footer_1 {
+    width: 50px;
+    padding-top: 20px;
+}
 
+.image_footer_2 {
+    width: 25px;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.background_image_1 {
+    width: 100%;
+}
+
+.py-3 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
 
 
 

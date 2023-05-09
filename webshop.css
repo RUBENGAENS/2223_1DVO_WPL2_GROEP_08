@@ -18,6 +18,11 @@ body{
     max-height: 1180px;
 }
 
+@font-face {
+    font-family: "Dotties Vanilla";
+    src: url("Dotties Vanilla Demo License");
+}
+
 @media (min-width: 600px) {
     body{
         background-image: url("./assets/achtergrondweb.png");
@@ -34,7 +39,8 @@ body{
 .h1-header{
     float: left;
     font-size: 60px;
-    font-family: 'Titan One', cursive;
+    font-family: "Dotties Vanilla";
+    font-weight: bolder;
 }
 .p-header{
     float: left;
@@ -45,7 +51,8 @@ body{
 .h2-tussentitels{
     text-align: center;
     padding-bottom: 10px;
-    font-family: 'Titan One', cursive;
+    font-family: "Dotties Vanilla";
+    font-weight: bolder;
     font-size: 35px;
 }
 
@@ -53,7 +60,8 @@ body{
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 10px;
-    font-family: 'Titan One', cursive;
+    font-family: "Dotties Vanilla";
+    font-weight: bolder;
     text-align: left;
     margin-left: 42px;
 }

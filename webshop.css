@@ -214,5 +214,42 @@ select{
 
 /*Navbar*/
 
+.nav-item{
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Titan One', cursive;
+}
+
+.nav-link-hover{
+    color: #81b29a;
+}
+
+.btn-nav{
+    border-radius: 10px;
+    background-color: transparent;
+    width: 130px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

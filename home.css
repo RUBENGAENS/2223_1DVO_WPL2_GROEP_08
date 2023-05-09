@@ -2,15 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Segoe UI", Verdana, sans-serif;
+    font-family: "Dotties Vanilla";
+    src: url("Dotties Vanilla Demo License");
 }
 body {
     background-image: url("assets/Achtergrond_home.png");
     background-size: cover;
 }
-header div h1 {
-    font-family: "Titan One", Verdana, sans-serif;
-    text-align: center;
+p {
+    font-family: "Segoe UI", Verdana, sans-serif;
 }
 header div img {
     width: 100%;
@@ -18,9 +18,7 @@ header div img {
 #familie {
     width: 100%;
 }
-main div h2 {
-    font-family: "Titan One", Verdana, sans-serif;
-}
+
 #boekje {
     color: #3C405B;
 }
@@ -86,7 +84,10 @@ main div h2 {
         text-align: right;
     }
     #logo {
-        padding: 60px 25px;
+        padding: 100px 25px;
+    }
+    #familie {
+        padding-top: 20px;
     }
 }
 
@@ -129,4 +130,20 @@ a:hover{
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.container-fluid {
+    padding: 0 30px;
+    margin: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+#nav {
+    width: 40px;
 }

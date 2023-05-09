@@ -13,6 +13,7 @@ h1 {
 h2 {
     color: #82B29A;
     font-weight: bold;
+    font-size: 25px;
 }
 
 div {
@@ -61,3 +62,4 @@ a:hover{
     padding-left: 20px;
     padding-right: 20px;
 }
+

@@ -5,6 +5,8 @@
 
 }
 
+/*CSS*/
+
 body {
     background-image: url("assets/achtergrond_faq.png");
     background-size: cover;
@@ -28,6 +30,7 @@ div {
 }
 
 /*Navbar*/
+
 .nav-item{
     list-style: none;
 }
@@ -66,6 +69,25 @@ a:hover{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+/*Javascript*/
+
 .antwoorden {
     display: none;
 }
+
+
+

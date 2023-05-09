@@ -234,6 +234,7 @@ select{
 
 .nav-link{
     text-decoration: none;
+    font-family: "Dotties Vanilla";
     color: black;
     padding: 3px;
     font-size: 20px;
@@ -255,6 +256,7 @@ a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-family: "Dotties Vanilla";
 }
 
 a:hover{
@@ -270,7 +272,13 @@ a:hover{
 .btn-shop{
     border: none;
     background-color: transparent;
+    font-size: 20px;
 }
+
+.span-cart{
+    margin-right: 20px;
+}
+
 
 /*Footer*/
 

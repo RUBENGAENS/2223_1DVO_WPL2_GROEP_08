@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Titan One", Verdana, sans-serif;
-
+    font-family: "Dotties Vanilla";
+    src: url("Dotties Vanilla Demo License");
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Dotties Vanilla";
+    src: url("Dotties Vanilla Demo License");
 }
 
 body {
@@ -42,7 +47,7 @@ body {
     border: 1px solid transparent;
     border-radius: 50px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .hidden {
@@ -74,44 +79,4 @@ button.contact-color:hover {
         background-image: url("assets/background_overons_phone.png");
         background-size: cover;
     }
-}
-
-/*Navbar*/
-
-.nav-item {
-    list-style: none;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: black;
-    padding: 3px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.nav-link:hover {
-    color: #81b29a;
-}
-
-.btn-nav {
-    border: none;
-    background-color: transparent;
-    width: 130px;
-    height: 30px;
-}
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #81b29a;
-}
-
-.navbar-brand {
-    padding-left: 20px;
-    padding-right: 20px;
 }

@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Dotties Vanilla";
+    src: url("Dotties Vanilla Demo License");
 }
 
 /*CSS*/
@@ -16,6 +17,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-weight: bold;
+    padding-top: 50px;
 }
 
 h2 {
@@ -29,8 +31,16 @@ div {
     padding-bottom: 20px;
 }
 
+p {
+    font-family: "Segoe UI", Verdana,sans-serif;
+}
+
+
 /*Navbar*/
 
+#nav {
+    width: 40px;
+}
 .nav-item{
     list-style: none;
 }

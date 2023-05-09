@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: "Segoe UI", Verdana, sans-serif;
 }
+body {
+    background-image: url("assets/Achtergrond_home.png");
+    background-size: cover;
+}
 header div h1 {
     font-family: "Titan One", Verdana, sans-serif;
     text-align: center;
@@ -32,6 +36,9 @@ main div h2 {
 }
 #netwerken {
     color: #DF7A5E;
+}
+#logo {
+    padding: 10px 5px;
 }
 @media screen and (min-width: 992px) {
     header div h1 {
@@ -78,6 +85,9 @@ main div h2 {
         font-size: 1.5rem;
         text-align: right;
     }
+    #logo {
+        padding: 60px 25px;
+    }
 }
 
 /*Navbar*/
@@ -89,9 +99,8 @@ main div h2 {
 .nav-link{
     text-decoration: none;
     color: black;
-    padding: 15px;
+    padding: 3px;
     font-size: 20px;
-    margin: 15px;
     font-weight: bold;
 }
 

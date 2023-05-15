@@ -5,6 +5,10 @@
     font-family: "Dotties Vanilla";
     src: url("Dotties Vanilla Demo License");
 }
+header .container {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-image: url("assets/Achtergrond_home.png");
     background-size: cover;
@@ -25,7 +29,6 @@ header div img {
 .mockup {
     width: 100%;
 }
-
 #agenda {
     color: #F2CC8E;
 }
@@ -38,22 +41,28 @@ header div img {
 #logo {
     padding: 10px 5px;
 }
+.head {
+    padding-top: 60px;
+}
+header .btn {
+    border: none;
+    width: 140px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .head {
+        padding-top: 100px;
+    }
+    header h1 {
+        font-size: large;
+    }
+    header .btn {
+        border: none;
+        width: 120px;
+    }
+}
 @media screen and (min-width: 992px) {
     header div h1 {
         text-align: left;
-    }
-    .app img, .goog img {
-        width: 70%;
-    }
-    .app img {
-        margin-left: 30%;
-    }
-    .goog img {
-        margin-left: 5%;
-    }
-    header .container {
-        margin: 0;
-        padding: 0;
     }
     .kindtop {
         padding-top: 13%;
@@ -84,10 +93,13 @@ header div img {
         text-align: right;
     }
     #logo {
-        padding: 100px 25px;
+        padding: 60px 25px;
     }
     #familie {
         padding-top: 20px;
+    }
+    header .btn {
+        width: 150px;
     }
 }
 

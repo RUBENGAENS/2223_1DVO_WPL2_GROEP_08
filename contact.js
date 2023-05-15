@@ -8,7 +8,11 @@ CreateUserForm.addEventListener("submit", (e) => {
     let errors = [];
     if (email.value === '' || email.value === null)
     {
-        errors.push("e-mail is verplicht.")
+        errors.push("E-mail is verplicht.")
+    }
+    if (commentaar.value=== '' || commentaar.value === null)
+    {
+        errors.push("Commentaar is verplicht.")
     }
     if (errors.length >0)
     {
@@ -16,3 +20,16 @@ CreateUserForm.addEventListener("submit", (e) => {
         errorblock.innerText = errors.join(', ');
     }
 })
+
+
+//use an intersection on the contact form//
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+});
+const hiddenElement = document.querySelectorAll('.hidden');
+hiddenElement.forEach((el) => observer.observe(el));

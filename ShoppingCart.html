@@ -18,9 +18,10 @@
 <nav class="navbar navbar-expand-lg bg-white">
   <div class="container-fluid bg-white">
     <a class="navbar-brand">
-      <img src="assets/logo_nav.png" alt="logo" width="100px">
+      <img id="nav" src="assets/vliegje.png" alt="logo">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,16 +43,32 @@
         </li>
       </ul>
       <form class="d-flex">
-        <button class="btn-shop"><i class="fa fa-shopping-cart" aria-hidden="true"><a target="_blank" href="ShoppingCart.html"></a></i></button>
+        <button class="btn-shop"><a href="ShoppingCart.html" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="span-cart">0</span></a></button>
       </form>
+
       <form class="d-flex">
-        <button class="btn-nav btn-outline-success"><a target="_blank" href="https://play.google.com/store/games?hl=nl">Download hier</a></button>
+        <button class="btn-nav btn-outline-success"><a href="https://play.google.com/store/games?hl=nl" target="_blank">Download
+          hier</a></button>
       </form>
     </div>
   </div>
 </nav>
-<!--Main-->
 
+<div class="container p-5">
+
+</div>
+<!--Main-->
+<div class="products-container">
+  <div class="product-header">
+    <h5 class="product-titel">Product</h5>
+    <h5 class="prijs">Prijs</h5>
+    <h5 class="aantal">Aantal</h5>
+    <h5 class="totaal">Totaal</h5>
+  </div>
+  <div class="producten">
+
+  </div>
+</div>
 
 <!--Footer-->
 <div class="container pb-4">
@@ -77,5 +94,7 @@
     </ul>
   </footer>
 </div>
+
+<script src="webshop.js"></script>
 </body>
 </html>

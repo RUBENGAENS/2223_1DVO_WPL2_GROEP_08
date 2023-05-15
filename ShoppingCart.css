@@ -19,6 +19,9 @@ body{
 
 /*Navbar*/
 
+#nav {
+    width: 40px;
+}
 .nav-item{
     list-style: none;
 }
@@ -58,10 +61,83 @@ a:hover{
     padding-right: 20px;
 }
 
+.container-fluid {
+    padding: 0 30px;
+    margin: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
 .btn-shop{
     border: none;
     background-color: transparent;
+    font-size: 20px;
 }
+
+.span-cart{
+    margin-right: 20px;
+}
+
+/*Main*/
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #81b29a;
+    margin: 0 auto;
+}
+
+.product-titel{
+    width: 45%;
+}
+
+.prijs{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.totaal{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.aantal{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle{
+    width: 30%;
+}
+
+.basketTotal{
+    width: 10%;
+}
+
 /*Footer*/
 
 .image_footer_1 {

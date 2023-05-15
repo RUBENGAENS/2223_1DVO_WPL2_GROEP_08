@@ -1,11 +1,14 @@
-.container{
+/*.container{
     background-color: rgba(13, 202, 240, 0);
-}
+}*/
 html {
     height: 50rem;
 }
 /*Navbar*/
 
+#nav {
+    width: 40px;
+}
 .nav-item{
     list-style: none;
 }
@@ -13,9 +16,8 @@ html {
 .nav-link{
     text-decoration: none;
     color: black;
-    padding: 15px;
+    padding: 3px;
     font-size: 20px;
-    margin: 15px;
     font-weight: bold;
 }
 
@@ -45,6 +47,20 @@ a:hover{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.container-fluid {
+    padding: 0 30px;
+    margin: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+/*Navbar*/
 
 .col-md-4 {
     color: lightslategray;
@@ -216,10 +232,14 @@ footer{
         padding-right: 130px;
     }
     .image_footer_1{
-        margin-right: 220px;
+        margin-right: 200px;
+    }
+    .image_footer_4{
+        margin-right: 25px;
     }
     .row{
-
+        padding-left: 30px;
+        padding-right: 30px;
     }
     #1{
         text-align: center;

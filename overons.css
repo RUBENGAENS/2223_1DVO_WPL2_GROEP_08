@@ -12,7 +12,9 @@
 .nav-item{
     list-style: none;
 }
-
+.overons_nav {
+    color: #81b29a  ;
+}
 .nav-link{
     text-decoration: none;
     color: black;
@@ -98,10 +100,14 @@ body {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     font-size: 22px;
 }
-
+button.contact-color:hover {
+    background-color: #DF7A5E;
+    color: #ffffff;
+    transform: scale(1.1);
+}
 .hidden {
     opacity: 0;
-    transition: all 0.9s;
+    transition: all 1s;
     filter: blur(5px);
     transform: translate(-100%);
 }
@@ -118,14 +124,17 @@ body {
     }
 }
 
-button.contact-color:hover {
-    background-color: #DF7A5E;
-    color: #ffffff;
-}
+
 
 @media screen and (max-width: 600px) {
     body {
         background-image: url("assets/background_overons_phone.png");
         background-size: cover;
     }
+}
+
+.slider{
+    width: 200px;
+    height: 400px;
+    border-radius: 20px;
 }

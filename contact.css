@@ -1,6 +1,10 @@
-/*.container{
-    background-color: rgba(13, 202, 240, 0);
-}*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Dotties Vanilla";
+src: url("Dotties Vanilla Demo License");
+}
 html {
     height: 50rem;
 }
@@ -91,9 +95,11 @@ a:hover{
     width: 50px;
 }
 input {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 600px;
     height: 35px;
+}
+.email{
     padding-left: 15px;
 }
 
@@ -103,7 +109,7 @@ label {
 }
 
 textarea {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 600px;
     height: 200px;
     padding-left: 15px;
@@ -174,6 +180,21 @@ footer{
 .row{
     padding-right: 90px;
 }
+
+.hidden {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translate(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+
 
 
 @media (max-width: 1920px) {

@@ -136,7 +136,7 @@ function displayCart() {
             productContainer.innerHTML += `
                 <div class="product-titel">
                     <i class="fa fa-times" aria-hidden="true"></i>
-                    <img alt="foto product" src="assets/${item.tag}.jpg"></img>
+                    <img alt="foto product" src="./assets/${item.tag}.jpg">
                     <span>${item.name}</span>
                 </div>
             <div class="prijs">$${item.price},00</div>
@@ -154,7 +154,7 @@ function displayCart() {
         productContainer.innerHTML += `
             <div class="basketTotalContainer">
                 <h4 class="basketTotalTitle">
-                    Basket Total
+                    Totaal winkelmandje
                 </h4>
                 <h4 class="basketTotal">
                     $${cartCost},00

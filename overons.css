@@ -9,6 +9,9 @@ body {
     background-size: cover;
 }
 /*Navbar*/
+#color {
+    color: #81b29a;
+}
 .nav-item{
     list-style: none;
 }
@@ -20,7 +23,7 @@ body {
     font-weight: bold;
 }
 .nav-link:hover{
-    color: #81b29a;
+    color: #abccbc;
 }
 .btn-nav{
     border: none;
@@ -35,7 +38,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color: #81b29a;
+    color: #abccbc;
 }
 .navbar-brand{
     padding-left: 20px;
@@ -50,10 +53,16 @@ a:hover{
 }
 .navbar {
     width: 100%;
+    background-color: rgba(232, 232, 232, 0.4);
+    position: fixed;
+    z-index: 99;
+    backdrop-filter: blur(8px);
 }
 #nav {
     width: 40px;
 }
+
+/* Over ons */
 .hoofding {
     font-size: 40px;
     color: #DF7A5E;
@@ -110,35 +119,51 @@ button.contact-color2:hover {
     transform: translate(0);
 }
 
+.full {
+    padding-top: 3rem;
+}
+
 /*Footer*/
+
 footer {
-    background-color: white;
+    background-color: #33343f;
     /*border: 1px solid  #000;*/
     padding: 0;
 }
+
 .image_footer_1 {
     width: 50px;
-    padding-top: 20px;
 }
+
 .image_footer_2 {
     width: 25px;
-    padding-top: 20px;
     margin: 10px;
 }
+
 .background_image_1 {
     width: 100%;
 }
+
 .py-3 {
     padding-top: 1px;
     padding-bottom: 1px;
     margin-top: 1px;
     margin-bottom: 10px;
 }
+
 span {
     font-size: 12px;
 }
+
 ul li img {
     opacity: 70%;
+}
+
+ul li img:hover {
+    opacity: 100%;
+}
+.tekstf {
+    color: #919193;
 }
 
 @media (prefers-reduced-motion) {

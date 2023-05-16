@@ -57,6 +57,10 @@ a:hover{
 }
 .navbar {
     width: 100%;
+    background-color: rgba(232, 232, 232, 0.4);
+    position: fixed;
+    z-index: 99;
+    backdrop-filter: blur(8px);
 }
 #nav {
     width: 40px;
@@ -121,18 +125,23 @@ a:hover{
 }
 .redbox:hover {
     background: #e84341;
+    box-shadow: 0 0 30px rgba(232, 67, 65, 0.65);
 }
 .graybox:hover {
     background-color: #d8d8e4;
+    box-shadow: 0 0 30px rgb(216, 216, 228);
 }
 .blackbox:hover{
     background-color: #3c3d41;
+    box-shadow: 0 0 30px rgba(60, 61, 65, 0.65);
 }
 .bluebox:hover {
     background-color: #427cfe;
+    box-shadow: 0 0 30px rgba(66, 124, 254, 0.65);
 }
 .greenbox:hover {
     background-color: #46d45c;
+    box-shadow: 0 0 30px rgba(70, 212, 92, 0.65);
 }
 .hidden {
     opacity: 0;
@@ -159,35 +168,46 @@ a:hover{
 }
 
 /*Footer*/
+
 footer {
-    background-color: white;
+    background-color: #33343f;
     /*border: 1px solid  #000;*/
     padding: 0;
 }
 
 .image_footer_1 {
     width: 50px;
-    padding-top: 20px;
 }
+
 .image_footer_2 {
     width: 25px;
-    padding-top: 20px;
     margin: 10px;
 }
+
 .background_image_1 {
     width: 100%;
 }
+
 .py-3 {
     padding-top: 1px;
     padding-bottom: 1px;
     margin-top: 1px;
     margin-bottom: 10px;
 }
+
 span {
     font-size: 12px;
 }
+
 ul li img {
     opacity: 70%;
+}
+
+ul li img:hover {
+    opacity: 100%;
+}
+.tekstf {
+    color: #919193;
 }
 @media (max-width: 1240px){
     .team{

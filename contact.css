@@ -95,8 +95,7 @@ input {
     border-radius: 10px;
     width: 600px;
     height: 35px;
-    border: 0 solid #82B29A;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    border: 3px solid #82B29A;
 }
 .email{
     padding-left: 15px;
@@ -112,8 +111,7 @@ textarea {
     width: 600px;
     height: 200px;
     padding-left: 15px;
-    border: 0 solid #82B29A;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    border: 3px solid #82B29A;
 }
 .submit {
     width: 150px;
@@ -217,20 +215,20 @@ ul li img:hover {
     main {
         height: 55rem;
     }
-
+    h1{
+        color: #ffffff;
+    }
     input {
         width: 350px;
         align-items: center;
-        border: 0 solid #82B29A;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        border: 3px solid #82B29A;
     }
 
     textarea {
         width: 350px;
         height: 150px;
         align-items: center;
-        border: 0 solid #82B29A;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        border: 3px solid #82B29A;
     }
 
     .submit {

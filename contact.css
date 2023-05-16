@@ -8,8 +8,9 @@ src: url("Dotties Vanilla Demo License");
 html {
     height: 50rem;
 }
-/*Navbar*/
 
+
+/*Navbar*/
 #nav {
     width: 40px;
 }
@@ -66,6 +67,8 @@ a:hover{
 }
 /*Navbar*/
 
+
+/*main*/
 .col-md-4 {
     color: lightslategray;
     padding-bottom: 10px;
@@ -141,58 +144,9 @@ body{
 #errors{
     text-align: center;
 }
+/*main*/
 
-footer{
-    background-color: white;
-}
-.d-flex{
-    padding-left: 25px;
-}
-.image_footer_1 {
-    width: 50px;
-    padding-top: 10px;
-    margin-right: 5px;
-    margin-left: 255px;
-}
-.image_footer_2 {
-    width: 25px;
-    padding-top: 10px;
-    margin-left: 400px;
-}
-.image_footer_3 {
-    width: 25px;
-    padding-top: 10px;
-}
-.image_footer_4 {
-    width: 25px;
-    padding-top: 10px;
-}
-.background_image_1 {
-    width: 100%;
-}
 
-.py-3 {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-}
-.row{
-    padding-right: 90px;
-}
-
-.hidden {
-    opacity: 0;
-    transition: all 1.5s;
-    filter: blur(5px);
-    transform: translate(-100%);
-}
-
-.show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translate(0);
-}
 /*footer*/
 footer {
     background-color: white;
@@ -233,10 +187,9 @@ ul li img {
 ul li img:hover {
     opacity: 100%;
 }
+/*footer*/
 
-
-/*media querry's*/
-
+/*media query's*/
 @media (max-width: 1920px) {
     body{
         background-image: url("./assets/achtergrondweb.png");
@@ -314,4 +267,5 @@ ul li img:hover {
         background-image: url("./assets/achtergrondtelefoon.png");
         background-size: cover;}
 }
+/*media query's*/
 

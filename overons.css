@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Dotties Vanilla";
-    src: url("Dotties Vanilla Demo License");
-
+    font-family: 'Kanit', sans-serif;
 }
-
+body {
+    background-image: url("assets/background_overons.png");
+    background-size: cover;
+}
 /*Navbar*/
-
 .nav-item{
     list-style: none;
 }
@@ -22,30 +22,25 @@
 .nav-link:hover{
     color: #81b29a;
 }
-
 .btn-nav{
     border: none;
     background-color: transparent;
     width: 130px;
     height: 30px;
 }
-
 a{
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-
 a:hover{
     text-decoration: none;
     color: #81b29a;
 }
-
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .container-fluid {
     padding: 0 30px;
     margin: 0;
@@ -53,41 +48,29 @@ a:hover{
 .navbar-collapse {
     padding: 0;
 }
-
 .navbar {
     width: 100%;
 }
-
 #nav {
     width: 40px;
 }
-
-body {
-    background-image: url("assets/background_overons.png");
-    background-size: cover;
-}
-
 .hoofding {
     font-size: 40px;
     color: #DF7A5E;
 }
-
 .overons h2 {
     font-size: 26px;
     color: #82B29A;
     padding-top: 70px;
 }
-
 .foto {
     width: 100%;
 }
-
 .tekst {
     color: #3C405B;
     font-family: "Segoe UI", sans-serif;
     font-size: 18px;
 }
-
 .contact-color {
     color: #DF7A5E;
     background-color: #fff;
@@ -127,23 +110,45 @@ button.contact-color2:hover {
     transform: translate(0);
 }
 
+/*Footer*/
+footer {
+    background-color: white;
+    /*border: 1px solid  #000;*/
+    padding: 0;
+}
+.image_footer_1 {
+    width: 50px;
+    padding-top: 20px;
+}
+.image_footer_2 {
+    width: 25px;
+    padding-top: 20px;
+    margin: 10px;
+}
+.background_image_1 {
+    width: 100%;
+}
+.py-3 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+span {
+    font-size: 12px;
+}
+ul li img {
+    opacity: 70%;
+}
+
 @media (prefers-reduced-motion) {
     .hidden {
         transition: none;
     }
 }
-
-
-
 @media screen and (max-width: 600px) {
     body {
         background-image: url("assets/background_overons_phone.png");
         background-size: cover;
     }
-}
-
-.slider{
-    width: 200px;
-    height: 400px;
-    border-radius: 20px;
 }

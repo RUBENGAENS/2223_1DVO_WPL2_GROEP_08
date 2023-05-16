@@ -125,7 +125,7 @@ a:hover{
 }
 .redbox:hover {
     background: #e84341;
-    box-shadow: 0 0 30px rgba(232, 67, 65, 0.65);
+    box-shadow: 0 0 30px rgba(232, 67, 65, 0.45);
 }
 .graybox:hover {
     background-color: #d8d8e4;
@@ -133,15 +133,15 @@ a:hover{
 }
 .blackbox:hover{
     background-color: #3c3d41;
-    box-shadow: 0 0 30px rgba(60, 61, 65, 0.65);
+    box-shadow: 0 0 30px rgba(60, 61, 65, 0.45);
 }
 .bluebox:hover {
     background-color: #427cfe;
-    box-shadow: 0 0 30px rgba(66, 124, 254, 0.65);
+    box-shadow: 0 0 30px rgba(66, 124, 254, 0.45);
 }
 .greenbox:hover {
     background-color: #46d45c;
-    box-shadow: 0 0 30px rgba(70, 212, 92, 0.65);
+    box-shadow: 0 0 30px rgba(70, 212, 92, 0.45);
 }
 .hidden {
     opacity: 0;

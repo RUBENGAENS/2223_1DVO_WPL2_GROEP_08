@@ -119,12 +119,11 @@ button.contact-color2:hover {
     transform: translate(0);
 }
 
-.full {
+main {
     padding-top: 3rem;
 }
 
 /*Footer*/
-
 footer {
     background-color: #33343f;
     /*border: 1px solid  #000;*/

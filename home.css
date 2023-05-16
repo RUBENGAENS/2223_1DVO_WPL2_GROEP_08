@@ -47,6 +47,7 @@ header .btn {
     border: none;
     width: 140px;
 }
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .head {
         padding-top: 100px;
@@ -117,7 +118,7 @@ header .btn {
 }
 
 .nav-link:hover{
-    color: #81b29a;
+    color: #abccbc;
 }
 
 .btn-nav{
@@ -135,7 +136,7 @@ a{
 
 a:hover{
     text-decoration: none;
-    color: #81b29a;
+    color: #abccbc;
 }
 
 .navbar-brand{
@@ -154,9 +155,14 @@ a:hover{
 .navbar {
     position: fixed;
     width: 100%;
+    background-color: rgba(232, 232, 232, 0.4);
+    backdrop-filter: blur(8px);
 }
 #nav {
     width: 40px;
+}
+.homepage {
+    color: #81b29a;
 }
 
 /*Footer*/

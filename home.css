@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Dotties Vanilla";
-    src: url("Dotties Vanilla Demo License");
+    font-family: 'Kanit', sans-serif;
 }
 header .container {
     margin: 0;

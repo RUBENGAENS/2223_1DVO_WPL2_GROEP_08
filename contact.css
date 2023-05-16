@@ -10,13 +10,12 @@ html {
 
 
 /*Navbar*/
-#nav {
-    width: 40px;
+#color{
+    color: #82B29A;
 }
 .nav-item{
     list-style: none;
 }
-
 .nav-link{
     text-decoration: none;
     color: black;
@@ -24,34 +23,28 @@ html {
     font-size: 20px;
     font-weight: bold;
 }
-
 .nav-link:hover{
-    color: #81b29a;
+    color: #ABCCBC;
 }
-
 .btn-nav{
     border: none;
     background-color: transparent;
     width: 130px;
     height: 30px;
 }
-
 a{
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-
 a:hover{
     text-decoration: none;
-    color: #81b29a;
+    color: #ABCCBC;
 }
-
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .container-fluid {
     padding: 0 30px;
     margin: 0;
@@ -59,10 +52,13 @@ a:hover{
 .navbar-collapse {
     padding: 0;
 }
-
 .navbar {
-    position: fixed;
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+}
+#nav {
+    width: 40px;
 }
 /*Navbar*/
 
@@ -70,10 +66,6 @@ a:hover{
 /*main*/
 h1{
     color: #82B29A;
-}
-.col-md-4 {
-    color: #DF7A5E;
-    padding-bottom: 10px;
 }
 
 .col-md-12 {
@@ -148,6 +140,11 @@ body{
 
 #errors{
     text-align: center;
+}
+
+.col-md-4 {
+    color: #DF7A5E;
+    padding-bottom: 10px;
 }
 /*main*/
 

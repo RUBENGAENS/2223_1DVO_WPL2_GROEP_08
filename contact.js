@@ -1,3 +1,4 @@
+//Use an eventlistener for the contact form.
 const email = document.getElementById("e-mail");
 const commentaar = document.getElementById("Commentaar");
 const errorblock = document.getElementById("errors");
@@ -20,7 +21,6 @@ CreateUserForm.addEventListener("submit", (e) => {
         errorblock.innerText = errors.join(', ');
     }
 })
-
 
 //use an intersection on the contact form//
 const observer = new IntersectionObserver((entries) => {

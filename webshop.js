@@ -92,6 +92,7 @@ function setItems(product) {
     let cartItems = localStorage.getItem('productsInCart');
     cartItems = JSON.parse(cartItems);
     if (cartItems != null) {
+
         if (cartItems[product.tag] == undefined) {
             cartItems = {
                 ...cartItems,
@@ -105,7 +106,7 @@ function setItems(product) {
             [product.tag]: product
         }
     }
-    localStorage.setItem("productInCart", JSON.stringify
+    localStorage.setItem("productsInCart", JSON.stringify
     (cartItems));
 }
 

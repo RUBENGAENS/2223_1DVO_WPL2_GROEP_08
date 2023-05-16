@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +22,7 @@ body{
     src: url("Dotties Vanilla Demo License");
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px){
     body{
         background-image: url("./assets/achtergrondweb.png");
         background-size: cover;}
@@ -90,135 +89,101 @@ body{
 
 /*Knoppen producten*/
 #aantal{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-speen{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-bavet{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-feestvarken{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-babynest{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-kraamvogel{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-nasci{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-pelicano{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-nestel {
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-maat{
-    width: 43px;
+    width: 60px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-left: 2px solid #81b29a;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 6px;
 }
 
 #aantal-maat-aantal{
     width: 38px;
     height: 40px;
-    border-left: 0;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 0;
+    border-radius: 10px;
+    border: transparent;
+    margin-left: 5px;
 }
 
 .btn-cart{
-    width: 38px;
+    width: 42px;
     height: 40px;
-    border-left: 0;
-    border-top: 2px solid #81b29a;
-    border-bottom: 2px solid #81b29a;
-    border-right: 2px solid #81b29a;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border: transparent;
+    border-radius: 10px;
     background-color: rgb(129, 178, 154, 0.7);
     color: white;
+    margin-left: 5px;
 }
 
 select{
@@ -287,31 +252,6 @@ a:hover{
     border: none;
     background-color: transparent;
     font-size: 20px;
-}
-
-
-/*Footer*/
-
-.image_footer_1 {
-    width: 50px;
-    padding-top: 20px;
-}
-
-.image_footer_2 {
-    width: 25px;
-    padding-top: 20px;
-    margin: 10px;
-}
-
-.background_image_1 {
-    width: 100%;
-}
-
-.py-3 {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 1px;
-    margin-bottom: 10px;
 }
 
 

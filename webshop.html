@@ -10,14 +10,13 @@
     <title>Webshop - ORI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Russo+One&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script defer src="webshop.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-white">
-    <div class="container-fluid bg-white">
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
         <a class="navbar-brand">
             <img id="nav" src="assets/vliegje.png" alt="logo">
         </a>
@@ -44,10 +43,7 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <button class="btn-shop"><a href="ShoppingCart.html" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
-            </form>
-            <form class="d-flex">
-                <span class="span-cart">0</span>
+                <button class="btn-shop" id="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
             </form>
             <form class="d-flex">
                 <button class="btn-nav btn-outline-success"><a href="https://play.google.com/store/games?hl=nl" target="_blank">Download
@@ -311,6 +307,29 @@
         </div>
     </div>
 </div>
+<footer>
+    <div class="container pt-0 pb-0">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0">
+            <div class="col-md-4 d-flex align-items-center">
+            <span class="text-muted">© Privacy & Terms
+      <br>All contents copyright © ORI B.V 2023.<br>All rights reserved.</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com" target="_blank">
+                    <img class="image_footer_2" src="assets/twitter.png" alt="logo_twitter">
+                </a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/" target="_blank">
+                    <img class="image_footer_2" src="assets/instagram.png" alt="logo_instagram">
+                </a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/" target="_blank">
+                    <img class="image_footer_2" src="assets/facebook.png" alt="logo_facebook">
+                </a></li>
+            </ul>
+        </footer>
+    </div>
+</footer>
+<script src="webshop.js"></script>
+
 </body>
 
 </html>

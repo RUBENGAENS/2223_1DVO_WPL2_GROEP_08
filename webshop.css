@@ -35,6 +35,14 @@ body{
 }
 
 /*Teksten*/
+
+span{
+    font-family: "Dotties Vanilla";
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
 .h1-header{
     float: left;
     font-size: 60px;
@@ -169,11 +177,12 @@ body{
 }
 
 #aantal-maat-aantal{
-    width: 38px;
+    width: 42px;
     height: 40px;
     border-radius: 10px;
     border: transparent;
     margin-left: 5px;
+    padding-left: 6px;
 }
 
 .btn-cart{

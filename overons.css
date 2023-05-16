@@ -97,7 +97,7 @@ body {
     background-color: #fff;
     border: 1px solid transparent;
     border-radius: 50px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     font-size: 22px;
 }
 button.contact-color:hover {
@@ -110,7 +110,7 @@ button.contact-color:hover {
     background-color: #fff;
     border: 1px solid transparent;
     border-radius: 50px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     font-size: 22px;
 }
 button.contact-color2:hover {

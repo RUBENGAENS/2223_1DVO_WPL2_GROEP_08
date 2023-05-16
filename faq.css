@@ -16,7 +16,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 h2 {
@@ -25,7 +25,7 @@ h2 {
     font-size: 23px;
 }
 
-div {
+.vragenlijst div {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -96,42 +96,6 @@ a:hover{
 
 .antwoorden {
     display: none;
-}
-
-/*Footer*/
-
-.image_footer_1 {
-    width: 50px;
-    padding-top: 20px;
-}
-
-.image_footer_2 {
-    width: 25px;
-    padding-top: 20px;
-    margin: 10px;
-}
-
-.background_image_1 {
-    width: 100%;
-}
-
-.py-3 {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-}
-
-span {
-    font-size: 12px;
-}
-
-ul li img {
-    opacity: 70%;
-}
-
-ul li img:hover {
-    opacity: 100%;
 }
 
 /*Footer*/

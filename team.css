@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Dotties Vanilla";
-    src: url("Dotties Vanilla Demo License");
+    font-family: 'Kanit', sans-serif;
 }
 
 body {
     background: url("assets/background_ori_team.png");
     background-size: cover;
 }
-/*Navbar*/
 
+/*Navbar*/
 .nav-item{
     list-style: none;
 }
@@ -25,30 +24,25 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-
 .nav-link:hover{
     color: #81b29a;
 }
-
 .btn-nav{
     border: none;
     background-color: transparent;
     width: 130px;
     height: 30px;
 }
-
 a{
     text-decoration: none;
     color: black;
     font-weight: bold;
 
 }
-
 a:hover{
     text-decoration: none;
     color: #81b29a;
 }
-
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
@@ -61,13 +55,13 @@ a:hover{
 .navbar-collapse {
     padding: 0;
 }
-
 .navbar {
     width: 100%;
 }
 #nav {
     width: 40px;
 }
+
 .team {
     position: relative;
     width: 100%;
@@ -104,7 +98,6 @@ a:hover{
     background: rgba(60, 64, 91, 0.4);
     border-radius: 15px;
     transition: all .38s ease;
-
 }
 .box h3 {
     font-size: 23px;
@@ -120,27 +113,26 @@ a:hover{
     transition: all .38s ease;
 }
 .icons i:hover {
-    transform: scale(1.2);
-}
-.icons_red i:hover {
-    color: #e84341;
-}
-.icons_gray i:hover {
-    color: #a1a1a1;
-}
-.icons_black i:hover {
-    color: #646465;
-}
-.icons_blue i:hover {
-    color: #3a5efd;
-}
-.icons_green i:hover {
-    color: #3cc15f;
+    transform: scale(1.4);
 }
 .box:hover {
     transform: translateY(-20px);
     cursor: pointer;
-    background: #3C405B;
+}
+.redbox:hover {
+    background: #e84341;
+}
+.graybox:hover {
+    background-color: #d8d8e4;
+}
+.blackbox:hover{
+    background-color: #3c3d41;
+}
+.bluebox:hover {
+    background-color: #427cfe;
+}
+.greenbox:hover {
+    background-color: #46d45c;
 }
 .hidden {
     opacity: 0;
@@ -153,7 +145,6 @@ a:hover{
     filter: blur(0);
     transform: translate(0);
 }
-
 .hidden:nth-child(2) {
     transition-delay: 200ms;
 }
@@ -167,6 +158,37 @@ a:hover{
     transition-delay: 800ms;
 }
 
+/*Footer*/
+footer {
+    background-color: white;
+    /*border: 1px solid  #000;*/
+    padding: 0;
+}
+
+.image_footer_1 {
+    width: 50px;
+    padding-top: 20px;
+}
+.image_footer_2 {
+    width: 25px;
+    padding-top: 20px;
+    margin: 10px;
+}
+.background_image_1 {
+    width: 100%;
+}
+.py-3 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+span {
+    font-size: 12px;
+}
+ul li img {
+    opacity: 70%;
+}
 @media (max-width: 1240px){
     .team{
         width: 100%;

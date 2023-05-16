@@ -11,10 +11,15 @@
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
     <script defer src="contact.js"></script>
 </head>
 <body>
+
+<!--navbar-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand">
@@ -49,6 +54,9 @@
         </div>
     </div>
 </nav>
+<!--navbar-->
+
+<!--main-->
 <main>
     <div class="container">
         <div class="row-1">
@@ -62,14 +70,14 @@
             <form id="CreateUserForm" class="col-md-12-2 mb-0text-body-secondary"
                   action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post" enctype="text/plain">
                 <label for="e-mail"></label>
-                <input class="email" type="email" name="e-mail" id="e-mail" placeholder="E-mail" value=""><br>
+                <input class="email" type="email" name="e-mail" id="e-mail" placeholder="vb. jondoe@hotmail.com" value=""><br>
                 <br><label for="Commentaar"></label>
                 <textarea name="Commentaar" id="Commentaar" placeholder="Schrijf hier je tekst."></textarea><br>
                 <div id="errors"></div>
                 <br>
                 <section class="hidden">
                     <br><input class="submit" type="submit" name="verzenden" id="Verzenden">
-                    <input class="delete" type="reset" name="wissen" id="wissen" value="wissen">
+                    <input class="delete" type="reset" name="wissen" id="wissen" value="Wissen">
                 </section>
             </form>
         </div>
@@ -92,6 +100,9 @@
         </section>
     </div>
 </main>
+<!--main-->
+
+<!--footer-->
 <footer>
     <div class="container pt-0 pb-0">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0">
@@ -113,5 +124,6 @@
         </footer>
     </div>
 </footer>
+<!--footer-->
 </body>
 </html>

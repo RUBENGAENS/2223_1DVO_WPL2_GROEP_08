@@ -7,7 +7,8 @@
 }
 
 body {
-    background: radial-gradient(#95d5b1, rgb(0, 0, 0));
+    background: url("assets/background_ori_team.png");
+    background-size: cover;
 }
 /*Navbar*/
 
@@ -94,15 +95,16 @@ a:hover{
     margin-bottom: 15px;
 }
 .center {
-    color: #fff;
+    color: #81b29a;
     font-size: 4rem;
     text-align: center;
 }
 .box {
     padding: 16px;
-    background: rgba(252, 252, 252, 0.07);
+    background: rgba(60, 64, 91, 0.4);
     border-radius: 15px;
     transition: all .38s ease;
+
 }
 .box h3 {
     font-size: 23px;
@@ -119,12 +121,26 @@ a:hover{
 }
 .icons i:hover {
     transform: scale(1.2);
-    color: #DF7A5E;
+}
+.icons_red i:hover {
+    color: #e84341;
+}
+.icons_gray i:hover {
+    color: #ecedef;
+}
+.icons_black i:hover {
+    color: #4e4e50;
+}
+.icons_blue i:hover {
+    color: #3a5efd;
+}
+.icons_green i:hover {
+    color: #3cc15f;
 }
 .box:hover {
     transform: translateY(-20px);
     cursor: pointer;
-    box-shadow: 0 0 80px rgba(242, 204, 142, 0.2);
+    background: #3C405B;
 }
 .hidden {
     opacity: 0;

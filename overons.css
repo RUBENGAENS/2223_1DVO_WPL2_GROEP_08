@@ -12,9 +12,6 @@
 .nav-item{
     list-style: none;
 }
-.overons_nav {
-    color: #81b29a  ;
-}
 .nav-link{
     text-decoration: none;
     color: black;
@@ -22,7 +19,6 @@
     font-size: 20px;
     font-weight: bold;
 }
-
 .nav-link:hover{
     color: #81b29a;
 }

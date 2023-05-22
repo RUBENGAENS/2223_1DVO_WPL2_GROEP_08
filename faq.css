@@ -41,7 +41,13 @@ p {
 }
 .plusbutton:hover {
     cursor: pointer;
+    opacity: 100%;
 }
+
+.plusbutton {
+    opacity: 70%;
+}
+
 
 /*Navbar*/
 

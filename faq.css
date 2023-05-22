@@ -37,6 +37,10 @@ p {
 
 .vragen:hover {
     color: #82B29A;
+    cursor: pointer;
+}
+.plusbutton:hover {
+    cursor: pointer;
 }
 
 /*Navbar*/

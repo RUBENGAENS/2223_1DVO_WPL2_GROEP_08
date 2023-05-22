@@ -230,3 +230,14 @@ ul li img:hover {
 .tekstf {
     color: #919193;
 }
+
+/* Loadingscreen */
+#preloader {
+    background: url("assets/preload_ori.gif") no-repeat center center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    transition: all 1s ease;
+
+}

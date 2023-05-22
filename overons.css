@@ -112,7 +112,6 @@ button.contact-color2:hover {
     filter: blur(5px);
     transform: translate(-100%);
 }
-/* test*/
 .show {
     opacity: 1;
     filter: blur(0);

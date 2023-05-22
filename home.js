@@ -15,4 +15,4 @@ window.addEventListener("load", function () {
 setTimeout(function(){
     loader.style.display = "none";
     localStorage.setItem("loaded", "true");
-},5000);
+},4500);

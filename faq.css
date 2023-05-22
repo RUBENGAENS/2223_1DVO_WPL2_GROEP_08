@@ -17,10 +17,11 @@ h1 {
     text-align: center;
     font-weight: bold;
     padding-top: 100px;
+    color: #82B29A;
 }
 
 h2 {
-    color: #82B29A;
+    color: #000;
     font-weight: bold;
     font-size: 23px;
 }
@@ -34,6 +35,9 @@ p {
     font-family: "Segoe UI", Verdana,sans-serif;
 }
 
+.vragen:hover {
+    color: #82B29A;
+}
 
 /*Navbar*/
 

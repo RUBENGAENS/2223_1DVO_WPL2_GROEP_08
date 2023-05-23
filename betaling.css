@@ -3,69 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+    outline: none; border: none;
 }
-
-/*CSS*/
-
-body {
-    background-image: url("assets/achtergrond_faq.png");
-    background-size: cover;
+body{
+    background-image: url("./assets/achtergrondbetalen.png");
 }
-
-h1 {
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 100px;
-    color: #82B29A;
-}
-
-h2 {
-    color: #000;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.vragenlijst div {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-p {
-    font-family: "Segoe UI", Verdana,sans-serif;
-}
-
-.vragen:hover {
-    color: #82B29A;
-    cursor: pointer;
-}
-.plusbutton:hover {
-    cursor: pointer;
-    opacity: 100%;
-}
-
-.plusbutton {
-    opacity: 70%;
-}
-.leegte {
-    display: none;
-}
-
-@media screen and (min-width: 768px) {
-    .leegte {
-        display: block;
-    }
-}
-
 /*Navbar*/
-
-#nav {
-    width: 40px;
+#producten{
+    color: #81b29a;
 }
 .nav-item{
     list-style: none;
 }
-
 .nav-link{
     text-decoration: none;
     color: black;
@@ -73,40 +22,28 @@ p {
     font-size: 20px;
     font-weight: bold;
 }
-
 .nav-link:hover{
     color: #abccbc;
 }
-
 .btn-nav{
     border: none;
     background-color: transparent;
     width: 130px;
     height: 30px;
 }
-
-nav .d-flex {
-    display: flex;
-    justify-content: right;
-}
-
 a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    text-align: right;
 }
-
 a:hover{
     text-decoration: none;
     color: #abccbc;
 }
-
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .container-fluid {
     padding: 0 30px;
     margin: 0;
@@ -114,34 +51,80 @@ a:hover{
 .navbar-collapse {
     padding: 0;
 }
-
 .navbar {
-    position: fixed;
     width: 100%;
     background-color: rgba(232, 232, 232, 0.4);
+    position: fixed;
+    z-index: 99;
     backdrop-filter: blur(8px);
 }
-
-.faqkleur {
-    color: #81b29a;
+#nav {
+    width: 40px;
+}
+/*Rest*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
 }
 
-/*Javascript*/
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: #f5f5f5;
+    border-radius: 20px;
+}
 
-.antwoorden {
-    display: none;
+.container form .row .col{
+    flex: 1 1 250px;
+}
+
+.container form .row .col .titel{
+    font-size: 25px;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.container form .row .col .inputBox{
+    margin: 15px 0;
+}
+
+.container form .row .col .inputBox span{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.container form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid grey;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.container form .row .col .flex{
+    display: flex;
+    gap: 15px;
+}
+
+.betalingswijzes{
+    padding-bottom: 7px;
+}
+
+.container form .submit-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #81b29a;
+    color: #ffffff;
+    border-radius: 10px;
 }
 
 /*Footer*/
-
 footer {
     background-color: #33343f;
     /*border: 1px solid  #000;*/
     padding: 0;
-}
-
-.image_footer_1 {
-    width: 50px;
 }
 
 .image_footer_2 {

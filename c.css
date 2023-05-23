@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("assets/Achtergrond_contact.png");
+    background-size: cover;
+}
+
 /*nav*/
 
 #nav {
@@ -33,10 +38,11 @@
     height: 30px;
 }
 
-a {
+
     text-decoration: none;
     color: black;
     font-weight: bold;
+    text-align: right;
 }
 
 a:hover {

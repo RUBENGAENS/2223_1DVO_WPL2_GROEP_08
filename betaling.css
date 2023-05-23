@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    outline: none; border: none;
+}
+body{
+    background-image: url("./assets/achtergrondbetalen.png");
+}
+/*Navbar*/
+#producten{
+    color: #81b29a;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #abccbc;
+}
+.btn-nav{
+    border: none;
+    background-color: transparent;
+    width: 130px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: #abccbc;
+}
+.navbar-brand{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-fluid {
+    padding: 0 30px;
+    margin: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    background-color: rgba(232, 232, 232, 0.4);
+    position: fixed;
+    z-index: 99;
+    backdrop-filter: blur(8px);
+}
+#nav {
+    width: 40px;
+}
+/*Rest*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+}
+
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: #f5f5f5;
+    border-radius: 20px;
+}
+
+.container form .row .col{
+    flex: 1 1 250px;
+}
+
+.container form .row .col .titel{
+    font-size: 25px;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.container form .row .col .inputBox{
+    margin: 15px 0;
+}
+
+.container form .row .col .inputBox span{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.container form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid grey;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.container form .row .col .flex{
+    display: flex;
+    gap: 15px;
+}
+
+.betalingswijzes{
+    padding-bottom: 7px;
+}
+
+.container form .submit-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #81b29a;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/*Footer*/
+footer {
+    background-color: #33343f;
+    /*border: 1px solid  #000;*/
+    padding: 0;
+}
+
+.image_footer_2 {
+    width: 25px;
+    margin: 10px;
+}
+
+.background_image_1 {
+    width: 100%;
+}
+
+.py-3 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 12px;
+}
+
+ul li img {
+    opacity: 70%;
+}
+
+ul li img:hover {
+    opacity: 100%;
+}
+.tekstf {
+    color: #919193;
+}

@@ -14,11 +14,12 @@ body {
 #nav {
     width: 40px;
 }
-.nav-item{
+
+.nav-item {
     list-style: none;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: black;
     padding: 3px;
@@ -26,35 +27,30 @@ body {
     font-weight: bold;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #abccbc;
 }
 
-.btn-nav{
+.btn-nav {
     border: none;
     background-color: transparent;
     width: 130px;
     height: 30px;
 }
 
-nav .d-flex {
-    display: flex;
-    justify-content: right;
-}
 
-a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     text-align: right;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
-    color: #abccbc;
+    color: #F2CC8E;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -63,6 +59,7 @@ a:hover{
     padding: 0 30px;
     margin: 0;
 }
+
 .navbar-collapse {
     padding: 0;
 }
@@ -74,7 +71,7 @@ a:hover{
     backdrop-filter: blur(8px);
 }
 
-.contactkleur {
+.contactkleur:hover {
     color: #F2CC8E;
 }
 
@@ -94,4 +91,16 @@ h2 {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
+}
+
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+
+}
+
+.iframe1 {
+    border-radius: 10px;
 }

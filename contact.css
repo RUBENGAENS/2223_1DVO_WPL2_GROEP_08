@@ -85,7 +85,7 @@ h1{
     padding-top: 20px;
 }
 
-.col-md-12-2 {
+#CreateUserForm {
     text-align: center;
     padding-top: 40px;
     align-items: center;

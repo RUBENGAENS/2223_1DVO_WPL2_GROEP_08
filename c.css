@@ -37,10 +37,16 @@ body {
     height: 30px;
 }
 
+nav .d-flex {
+    display: flex;
+    justify-content: right;
+}
+
 a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    text-align: right;
 }
 
 a:hover{

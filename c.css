@@ -93,6 +93,11 @@ h2 {
     font-weight: bold;
 }
 
+/*form*/
+form {
+    align-self: center;
+}
+
 
 .iframe {
     display: flex;

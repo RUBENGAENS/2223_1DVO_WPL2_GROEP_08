@@ -62,6 +62,18 @@ body{
         float: right;
         margin-right: 45px;
     }
+    .cart-box{
+        width:26% !important;
+        position: absolute;
+        left:72%;
+        top:25%;
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 80px;
+        font-size: 13px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -123,6 +135,15 @@ body{
         float: right;
         margin-right: 65px;
     }
+    .cart-box{
+        width:26% !important;
+        position: absolute;
+        left:72%;
+        top:25%;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
 }
 
 header{
@@ -135,15 +156,6 @@ header{
     justify-content: space-around;
 }
 
-.cart-box{
-    width:26% !important;
-    position: absolute;
-    left:72%;
-    top:25%;
-    /* border:solid 1px blue; */
-    padding:10px 20px;
-    font-size: 13px;
-}
 
 .cart-wrapper{
     overflow-y: auto;
@@ -181,7 +193,7 @@ header{
     color: white;
 }
 .cart-icon{
-    text-align: right;
+    text-align: left;
 }
 
 .cart-icon:hover{
@@ -228,7 +240,7 @@ header{
     border: solid lightgray 1px;
     border-top:none;
     position: fixed;
-    top:12vh;
+    top: 7vh;
     background-color: #fff;
     margin-right:2%;
 }
@@ -294,6 +306,7 @@ header{
     float: left;
     font-size: 60px;
     font-family: Kanit, sans-serif;
+    color: #3d405b;
 }
 .p-header{
     float: left;
@@ -307,6 +320,7 @@ header{
     font-family: Kanit, sans-serif;
     font-size: 50px;
     padding-bottom: 30px;
+    color: #3d405b;
 }
 
 
@@ -352,7 +366,6 @@ ul li img:hover {
 /*Navigatie*/
 #nav {
     width: 40px;
-    margin-left: 18px;
 }
 .nav-item{
     list-style: none;
@@ -365,6 +378,7 @@ header .nav-link{
     font-size: 20px;
     font-weight: bold;
     font-family: Kanit, sans-serif;
+    float: right;
 }
 
 header .nav-link:hover{
@@ -377,7 +391,6 @@ header .nav-link:hover{
     width: 130px;
     height: 30px;
 }
-
 
 .navbar-brand{
     padding-left: 20px;
@@ -396,13 +409,17 @@ header .nav-link:hover{
 #producten{
     color: #81b29a;
 }
+    }
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(232, 232, 232, 0.4);
+    backdrop-filter: blur(8px);
+}
 @media screen and (max-width: 600px) {
     .navbar {
         background-color: rgba(232, 232, 232, 0.65);
-
-    }
-}
-
 
 
 

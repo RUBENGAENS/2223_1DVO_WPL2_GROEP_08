@@ -409,13 +409,17 @@ header .nav-link:hover{
 #producten{
     color: #81b29a;
 }
-
+    }
+}
 header {
     position: fixed;
     width: 100%;
     background-color: rgba(232, 232, 232, 0.4);
     backdrop-filter: blur(8px);
 }
+@media screen and (max-width: 600px) {
+    .navbar {
+        background-color: rgba(232, 232, 232, 0.65);
 
 
 

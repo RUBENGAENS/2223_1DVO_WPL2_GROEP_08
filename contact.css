@@ -30,7 +30,7 @@ body {
 .btn-nav{
     border: none;
     background-color: transparent;
-    width: 130px;
+    width: 150px;
     height: 30px;
 }
 nav .d-flex {
@@ -51,6 +51,17 @@ a:hover{
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
+}
+.download_knop {
+    color: #ffffff;
+    background-color: #3C405B;
+    border-radius: 60px;
+    padding: 10px 15px;
+}
+.download_knop:hover {
+    color: #DF7A5E;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .container-fluid {
     padding: 0 30px;
@@ -181,4 +192,113 @@ ul li img:hover {
 }
 .tekstf {
     color: #919193;
+}
+.hidden {
+    opacity: 0;
+    transition: all 1.0s;
+    filter: blur(5px);
+    transform: translate(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+/*footer*/
+
+/*media query's*/
+@media (max-width: 1920px) {
+    body{
+        background-image: url("./assets/achtergrondweb.png");
+        background-size: cover;}
+}
+@media screen and (max-width: 820px) {
+    html {
+        height: 750px;
+    }
+
+    main {
+        height: 55rem;
+    }
+    h1{
+        color: #ffffff;
+    }
+    input {
+        width: 350px;
+        align-items: center;
+        border: 3px solid #82B29A;
+    }
+
+    textarea {
+        width: 350px;
+        height: 150px;
+        align-items: center;
+        border: 3px solid #82B29A;
+    }
+
+    .submit {
+        width: 120px;
+        background-color: #ffffff;
+        color: #82b29a;
+        text-align: center;
+        border: 1px solid transparent;
+    }
+
+    .submit:hover{
+        background-color: #81b29a;
+        color: #ffffff;
+    }
+
+    .delete {
+        width: 120px;
+        background-color: #ffffff;
+        color: #3C405B;
+        text-align: center;
+        border: 1px solid transparent;
+    }
+
+    .delete:hover{
+        background-color: #3C405B;
+        color: #ffffff;
+    }
+
+    .col-md-12-3 {
+        width: 350px;
+        height: 150px;
+        margin-left: 30px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+    .col-md-4-1{
+        padding-right: 130px;
+    }
+    .image_footer_1{
+        margin-right: 270px;
+    }
+    .image_footer_2{
+        margin-left: 1px;
+    }
+    .image_footer_4{
+        margin-right: 25px;
+    }
+    .row{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 600px) {
+    body{
+        background-image: url("./assets/achtergrondtelefoon.png");
+        background-size: cover;}
+}
+/*media query's*/
+@media screen and (max-width: 600px) {
+    .navbar {
+        background-color: rgba(232, 232, 232, 0.65);
+
+    }
+}
 }

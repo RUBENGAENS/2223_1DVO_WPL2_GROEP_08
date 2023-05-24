@@ -270,9 +270,4 @@ ul li img:hover {
         background-color: rgba(232, 232, 232, 0.85);
     }
 }
-/* navbar gsm*/
-@media screen and (max-width: 991px) {
-    .download_knop {
-        margin-left: 5px;
-    }
-}
+

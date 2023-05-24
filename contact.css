@@ -75,6 +75,7 @@ a:hover{
     background-color: rgba(232, 232, 232, 0.4);
     position: fixed;
     backdrop-filter: blur(8px);
+    z-index: 900;
 }
 #nav {
     width: 40px;
@@ -297,8 +298,7 @@ ul li img:hover {
 /*media query's*/
 @media screen and (max-width: 600px) {
     .navbar {
-        background-color: rgba(232, 232, 232, 0.65);
+        background-color: rgba(232, 232, 232, 0.85);
 
     }
-}
 }

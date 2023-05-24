@@ -130,6 +130,7 @@ a:hover{
     width: 100%;
     background-color: rgba(232, 232, 232, 0.4);
     backdrop-filter: blur(8px);
+    z-index: 900;
 }
 
 .faqkleur {
@@ -186,7 +187,7 @@ ul li img:hover {
 }
 @media screen and (max-width: 600px) {
     .navbar {
-        background-color: rgba(232, 232, 232, 0.65);
+        background-color: rgba(232, 232, 232, 0.85);
 
     }
 }

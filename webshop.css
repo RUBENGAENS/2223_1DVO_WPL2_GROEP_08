@@ -396,7 +396,12 @@ header .nav-link:hover{
 #producten{
     color: #81b29a;
 }
+@media screen and (max-width: 600px) {
+    .navbar {
+        background-color: rgba(232, 232, 232, 0.65);
 
+    }
+}
 
 
 

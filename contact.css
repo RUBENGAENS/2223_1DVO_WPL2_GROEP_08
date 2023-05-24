@@ -29,7 +29,7 @@ html {
 .btn-nav{
     border: none;
     background-color: transparent;
-    width: 130px;
+    width: 150px;
     height: 30px;
 }
 nav .d-flex {
@@ -50,6 +50,17 @@ a:hover{
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
+}
+.download_knop {
+    color: #ffffff;
+    background-color: #3C405B;
+    border-radius: 60px;
+    padding: 10px 15px;
+}
+.download_knop:hover {
+    color: #DF7A5E;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .container-fluid {
     padding: 0 30px;
@@ -307,4 +318,9 @@ ul li img:hover {
         background-size: cover;}
 }
 /*media query's*/
+@media screen and (max-width: 600px) {
+    .navbar {
+        background-color: rgba(232, 232, 232, 0.65);
 
+    }
+}

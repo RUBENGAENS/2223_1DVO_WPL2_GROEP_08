@@ -302,8 +302,9 @@ ul li img:hover {
 
     }
 }
+/* navbar gsm*/
 @media screen and (max-width: 991px) {
     .download_knop {
-        margin-left: 14px;
+        margin-left: 5px;
     }
 }

@@ -31,6 +31,15 @@ body{
     width: 150px;
     height: 30px;
 }
+.navbar-toggler {
+    border: transparent;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.kleur_icon {
+    color: #DF7A5E;
+}
 a{
     text-decoration: none;
     color: black;

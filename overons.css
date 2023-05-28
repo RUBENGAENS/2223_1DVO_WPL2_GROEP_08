@@ -77,7 +77,15 @@ a:hover{
 #nav {
     width: 40px;
 }
-
+.navbar-toggler {
+    border: transparent;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.kleur_icon {
+    color: #DF7A5E;
+}
 /* Over ons */
 .hoofding {
     font-size: 40px;

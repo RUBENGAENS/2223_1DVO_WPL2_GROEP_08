@@ -397,7 +397,15 @@ ul li img:hover {
 .nav-item {
     list-style: none;
 }
-
+.navbar-toggler {
+    border: transparent;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.kleur_icon {
+    color: #DF7A5E;
+}
 header .nav-link {
     text-decoration: none;
     color: black;

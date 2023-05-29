@@ -28,7 +28,7 @@ body {
 .btn-nav{
     border: none;
     background-color: transparent;
-    width: 130px;
+    width: 150px;
     height: 30px;
 }
 nav .d-flex {
@@ -37,7 +37,7 @@ nav .d-flex {
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #ffffff;
     font-weight: bold;
     text-align: right;
 }
@@ -48,6 +48,17 @@ a:hover{
 .navbar-brand{
     padding-left: 20px;
     padding-right: 20px;
+}
+.download_knop {
+    color: #ffffff;
+    background-color: #3C405B;
+    border-radius: 60px;
+    padding: 10px 15px;
+}
+.download_knop:hover {
+    color: #DF7A5E;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .container-fluid {
     padding: 0 30px;
@@ -66,7 +77,15 @@ a:hover{
 #nav {
     width: 40px;
 }
-
+.navbar-toggler {
+    border: transparent;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.kleur_icon {
+    color: #DF7A5E;
+}
 /* Over ons */
 .hoofding {
     font-size: 40px;
@@ -178,5 +197,11 @@ ul li img:hover {
     body {
         background-image: url("assets/background_overons_phone.png");
         background-size: cover;
+    }
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        background-color: rgba(232, 232, 232, 0.85);
+
     }
 }

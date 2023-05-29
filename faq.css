@@ -10,6 +10,7 @@
 body {
     background-image: url("assets/achtergrond_faq.png");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -81,15 +82,33 @@ p {
 .btn-nav{
     border: none;
     background-color: transparent;
-    width: 130px;
+    width: 150px;
     height: 30px;
 }
-
+.download_knop {
+    color: #ffffff;
+    background-color: #3C405B;
+    border-radius: 60px;
+    padding: 10px 15px;
+}
+.download_knop:hover {
+    color: #DF7A5E;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
 nav .d-flex {
     display: flex;
     justify-content: right;
 }
-
+.navbar-toggler {
+    border: transparent;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.kleur_icon {
+    color: #DF7A5E;
+}
 a{
     text-decoration: none;
     color: black;
@@ -120,6 +139,7 @@ a:hover{
     width: 100%;
     background-color: rgba(232, 232, 232, 0.4);
     backdrop-filter: blur(8px);
+    z-index: 900;
 }
 
 .faqkleur {
@@ -173,4 +193,10 @@ ul li img:hover {
 }
 .tekstf {
     color: #919193;
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        background-color: rgba(232, 232, 232, 0.85);
+
+    }
 }

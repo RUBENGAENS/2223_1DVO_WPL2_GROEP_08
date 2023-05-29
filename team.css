@@ -205,7 +205,6 @@ footer {
 
 .image_footer_2 {
     width: 25px;
-    margin: 10px;
 }
 
 .background_image_1 {
@@ -240,7 +239,7 @@ ul li img:hover {
         padding: 90px 2%;
     }
     .center h1{
-        font-size: 3.2rem;
+        font-size: 40px;
     }
 }
 @media screen and (max-width: 600px) {

@@ -14,16 +14,14 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    font-weight: bold;
     padding-top: 100px;
     color: #82B29A;
 }
 
 h2 {
     color: #000;
-    font-weight: bold;
     font-size: 1.5rem;
 }
 
@@ -166,7 +164,6 @@ footer {
 
 .image_footer_2 {
     width: 25px;
-    margin: 10px;
 }
 
 .background_image_1 {

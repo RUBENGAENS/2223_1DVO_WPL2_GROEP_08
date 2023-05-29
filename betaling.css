@@ -180,6 +180,8 @@ ul li img:hover {
 @media screen and (max-width: 600px) {
     .navbar {
         background-color: rgba(232, 232, 232, 0.85);
-
+    }
+    .container{
+        padding-top: 100px;
     }
 }

@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --after-content: '2';
 }
@@ -20,19 +19,16 @@ body {
         background-image: url("./assets/achtergrondweb.png");
         background-size: cover;
     }
-
     .img-header {
         width: 250px;
         padding-top: 40px;
     }
-
     .foto-product {
         width: 80%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-
     .uitleg {
         text-align: left;
         font-size: 18px;
@@ -54,7 +50,6 @@ body {
         padding-left: 41px;
         padding-right: 41px;
     }
-
     .add-to-cart-btn {
         width: 42px;
         height: 40px;
@@ -79,10 +74,12 @@ body {
         margin-right:2%;
         width: 300px;
     }
-
     .cart-box {
         width: 26% !important;
         position: absolute;
+        left:80%;
+        top:25%;
+        padding: 10px 20px;
         font-size: 13px;
     }
 }
@@ -92,22 +89,18 @@ body {
         background-image: url("./assets/achtergrondtelefoon.png");
         background-size: cover;
     }
-
     .img-header {
         width: 200px;
     }
-
     h1 {
         padding-top: 40px;
     }
-
     .foto-product {
         width: 70%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-
     .uitleg {
         text-align: left;
         font-size: 18px;
@@ -157,15 +150,16 @@ body {
         border: solid lightgray 1px;
         border-top:none;
         position: fixed;
-        top: 15vh;
+        top: 12vh;
         left: 5%;
         background-color: #fff;
         width: 300px;
     }
-
     .cart-box {
         width: 26% !important;
         position: absolute;
+        left: 5%;
+        top: 25%;
         padding: 10px 20px;
         font-size: 13px;
     }
@@ -187,9 +181,15 @@ header {
     max-height: 350px;
     width:300px;
 }
-
 .subtotal {
     text-align: right;
+    padding: 5%;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.checkout {
+    width:95%;
     text-align: center;
     cursor: pointer;
     background-color: #81b29a;
@@ -204,17 +204,6 @@ header {
     color: white;
     padding-left: 100px;
     padding-right: 100px;
-
-.view-cart {
-    background-color: #fff;
-    border: 2px solid #81b29a;
-    color: #81b29a;
-}
-
-.view-cart:hover {
-    background-color: #81b29a;
-    border: 2px solid white;
-    color: white;
 }
 
 .cart-icon {
@@ -223,17 +212,6 @@ header {
 
 .cart-icon:hover {
     color: #81b29a;
-}
-
-.cart-item {
-    display: grid;
-    grid-template-columns: 3fr 6fr 1fr;
-    padding: 5% 2%;
-    border-bottom: solid 1px lightgray;
-}
-
-.cart-item img {
-    width: 100%;
 }
 
 .cart-item .details {
@@ -276,14 +254,6 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom:solid 1px lightgray;
-  
-.whole-cart-window {
-    border: solid lightgray 1px;
-    border-top: none;
-    position: fixed;
-    top: 7vh;
-    background-color: #fff;
-    margin-right: 2%;
 }
 
 .hide {
@@ -333,7 +303,6 @@ header {
     font-family: Kanit, sans-serif;
     color: #3d405b;
 }
-
 .p-header {
     float: left;
     text-align: left;
@@ -384,7 +353,6 @@ ul li img {
 ul li img:hover {
     opacity: 100%;
 }
-
 .tekstf {
     color: #919193;
     font-size: 12px;
@@ -394,19 +362,10 @@ ul li img:hover {
 #nav {
     width: 40px;
 }
-
 .nav-item {
     list-style: none;
 }
-.navbar-toggler {
-    border: transparent;
-}
-.navbar-toggler:focus{
-    box-shadow: none;
-}
-.kleur_icon {
-    color: #DF7A5E;
-}
+
 header .nav-link {
     text-decoration: none;
     color: black;
@@ -438,7 +397,6 @@ header .nav-link:hover {
     padding-right: 0;
     margin: 0;
 }
-
 .navbar-collapse {
     padding: 0;
 }
@@ -447,21 +405,8 @@ header .nav-link:hover {
     color: #81b29a;
 }
 
-
 @media screen and (max-width: 600px) {
     .navbar {
         background-color: rgba(232, 232, 232, 0.85);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

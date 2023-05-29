@@ -19,9 +19,18 @@ body {
         background-image: url("./assets/achtergrondweb.png");
         background-size: cover;
     }
+    .p-header {
+        float: left;
+        text-align: left;
+        font-size: 20px;
+        padding-left: 40px;
+    }
     .img-header {
         width: 250px;
         padding-top: 40px;
+    }
+    h1 {
+        padding-left: 40px;
     }
     .foto-product {
         width: 80%;
@@ -70,6 +79,7 @@ body {
         border-top:none;
         position: fixed;
         top: 8vh;
+        left: 67%;
         background-color: #fff;
         margin-right:2%;
         width: 300px;
@@ -92,8 +102,15 @@ body {
     .img-header {
         width: 200px;
     }
+    .p-header {
+        float: left;
+        text-align: left;
+        font-size: 20px;
+        padding-left: 20px;
+    }
     h1 {
         padding-top: 40px;
+        padding-left: 20px;
     }
     .foto-product {
         width: 70%;

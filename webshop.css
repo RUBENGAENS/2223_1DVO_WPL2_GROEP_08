@@ -47,6 +47,7 @@ body{
 
     .naam-product{
         padding-left: 41px;
+        padding-right: 41px;
     }
     .add-to-cart-btn{
         width: 42px;
@@ -61,19 +62,25 @@ body{
         margin-bottom: 40px;
         float: right;
         margin-right: 45px;
+        cursor: pointer;
+    }
+    .whole-cart-window{
+        border: solid lightgray 1px;
+        border-top:none;
+        position: fixed;
+        top: 8vh;
+        background-color: #fff;
+        margin-right:2%;
+        width: 300px;
     }
     .cart-box{
         width:26% !important;
         position: absolute;
-        left:72%;
+        left:80%;
         top:25%;
-        padding-top:10px;
-        padding-bottom: 10px;
-        padding-right: 20px;
-        padding-left: 80px;
+        padding: 10px 20px;
         font-size: 13px;
     }
-
 }
 
 @media (max-width: 600px) {
@@ -119,6 +126,7 @@ body{
 
     .naam-product{
         padding-left: 65px;
+        padding-right: 65px;
     }
 
     .add-to-cart-btn{
@@ -134,17 +142,28 @@ body{
         margin-bottom: 40px;
         float: right;
         margin-right: 65px;
+        cursor: pointer;
+    }
+    .whole-cart-window{
+        border: solid lightgray 1px;
+        border-top:none;
+        position: fixed;
+        top: 15vh;
+        left: 5%;
+        background-color: #fff;
+        width: 300px;
     }
     .cart-box{
         width:26% !important;
         position: absolute;
-        left:72%;
+        left:5%;
         top:25%;
         padding: 10px 20px;
         font-size: 13px;
     }
 
 }
+
 
 header{
     position: fixed;
@@ -156,17 +175,18 @@ header{
     justify-content: space-around;
 }
 
-
 .cart-wrapper{
     overflow-y: auto;
     max-height: 350px;
-    width:24vw;
+    width:300px;
 }
 .subtotal{
     text-align: right;
     padding:5%;
+    font-size: 15px;
+    font-weight: bold;
 }
-.checkout, .view-cart{
+.checkout{
     width:95%;
     text-align: center;
     cursor: pointer;
@@ -176,22 +196,13 @@ header{
     margin:10px auto;
     padding:10px 15px;
 }
-
 .betalen{
     text-decoration: none;
     color: white;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.view-cart{
-    background-color: #fff;
-    border: 2px solid #81b29a;
-    color: #81b29a;
-}
-.view-cart:hover{
-    background-color: #81b29a;
-    border: 2px solid white;
-    color: white;
-}
 .cart-icon{
     text-align: left;
 }
@@ -200,16 +211,6 @@ header{
     color: #81b29a;
 }
 
-.cart-item{
-    display:grid;
-    grid-template-columns: 3fr 6fr 1fr;
-    padding:5% 2%;
-    border-bottom:solid 1px lightgray;
-}
-
-.cart-item img{
-    width:100%;
-}
 .cart-item .details{
     padding-left:10%;
 }
@@ -217,17 +218,21 @@ header{
 .cart-item h3{
     text-align: left;
     margin-bottom:5%;
+    font-size: 20px;
 }
 
 .cart-item .price{
     display: block;
     text-align: right;
-    margin-top: 35%;
+    margin-top: 5%;
+    padding-right: 15px;
+    font-size: 15px;
 }
 
 .quantity{
     display: block;
     margin-top:5%;
+    font-size: 15px;
 }
 
 .fa-window-close{
@@ -235,14 +240,16 @@ header{
 }
 .cancel{
     text-align: right;
+    width: 275px;
+    position: absolute;
+    cursor: pointer;
 }
-.whole-cart-window{
-    border: solid lightgray 1px;
-    border-top:none;
-    position: fixed;
-    top: 7vh;
-    background-color: #fff;
-    margin-right:2%;
+
+.whole-cart-window h2{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom:solid 1px lightgray;
 }
 
 .hide{
@@ -262,29 +269,12 @@ header{
     border-radius: 50%;
 }
 
-.card-wrapper{
-    display: flex;
-    flex-wrap: wrap;
+.cart-item{
+    display:grid;
+    padding:5% 2%;
+    border-bottom:solid 1px lightgray;
 }
-.card-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-}
-.card-item img{
-    width:50%;
-}
-.card-item .details{
-    text-align: center;
-}
-.card-item p,.card-item h3 {
-    margin-top:10px;
-}
-.card-item span{
-    display: block;
-    margin-top:10px;
-}
+
 
 #aantal-maat{
     width: 60px;
@@ -410,12 +400,6 @@ header .nav-link:hover{
     color: #81b29a;
 }
 
-header {
-    position: fixed;
-    width: 100%;
-    background-color: rgba(232, 232, 232, 0.4);
-    backdrop-filter: blur(8px);
-}
 
 
 

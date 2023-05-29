@@ -1,8 +1,6 @@
 class CartItem{
-    constructor(name, desc, img, price){
+    constructor(name, price){
         this.name = name
-        this.desc = desc
-        this.img=img
         this.price = price
         this.quantity = 1
     }
@@ -63,12 +61,10 @@ addToCartBtns.forEach( (btn)=>{
 
 function addItemFunction(e){
     const id = e.target.parentElement.parentElement.parentElement.getAttribute("data-id")
-    const img = e.target.parentElement.parentElement.previousElementSibling.src
     const name = e.target.parentElement.previousElementSibling.textContent
-    const desc = e.target.parentElement.children[0].textContent
     let price = e.target.parentElement.children[1].textContent
-    price = price.replace("Price: $", '')
-    const item = new CartItem(name, desc, img, price)
+    price = price.replace("Price: €", '')
+    const item = new CartItem(name, price)
     LocalCart.addItemToLocalCart(id, item)
     console.log(price)
 }
@@ -116,12 +112,10 @@ function updateCartUI(){
         total = Math.round(total*100)/100
         cartItem.innerHTML =
             `
-        <img alt="" src="${value.img}"> 
                        <div class="details">
                            <h3>${value.name}</h3>
-                           <p>${value.desc}
                             <span class="quantity">Aantal: ${value.quantity}</span>
-                               <span class="price">Prijs: € ${price}</span>
+                               <span class="price">Prijs: € ${value.price*value.quantity}</span>
                            </p>
                        </div>
                        <div class="cancel"><i class="fas fa-window-close"></i></div>
@@ -137,10 +131,9 @@ function updateCartUI(){
         let root = document.querySelector(':root')
         root.style.setProperty('--after-content', `"${count}"`)
         const subtotal = document.querySelector('.subtotal')
-        subtotal.innerHTML = `SubTotal: $${total}`
+        subtotal.innerHTML = `Totaal: €${total}`
     }
     else
         cartIcon.classList.remove('non-empty')
 }
 document.addEventListener('DOMContentLoaded', ()=>{updateCartUI()})
-    

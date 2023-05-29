@@ -15,6 +15,16 @@ body{
 .nav-item{
     list-style: none;
 }
+nav .d-flex {
+    display: flex;
+    justify-content: right;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: right;
+}
 .nav-link{
     text-decoration: none;
     color: black;
@@ -149,7 +159,6 @@ footer {
 
 .image_footer_2 {
     width: 25px;
-    margin: 10px;
 }
 
 .background_image_1 {
